@@ -6,6 +6,8 @@ import smtplib
 For listings that calculate shipping cost based on the buyer's location, the API does not
 return a price. You can set a `default_shipping_price` for those cases.
 
+`price_minimum` is useful to filter out different products that might appear in search results.
+
 `ignore` is a list of URLs that will not trigger an alert.
 
 When `verbose` is True the script prints all filtered search results.
